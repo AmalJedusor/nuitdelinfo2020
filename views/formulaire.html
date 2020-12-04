@@ -1,0 +1,499 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Surfrider</title>
+	<!-- mobile apps -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Surfer Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //mobile apps -->
+	<!-- Custom Theme files -->
+	<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+	<link href="css/font-awesome.css" rel="stylesheet"> <!-- font-awesome icons -->
+	<link rel="stylesheet" href="css/percircle.css">
+	<link href="jeudelavie_animation/animation.css" rel="stylesheet" type="text/css">
+	<!-- //Custom Theme files -->
+	<!-- js -->
+	<script src="js/jquery-2.2.3.min.js"></script>
+	<!-- //js -->
+	<!-- web-fonts -->
+	<link href='//fonts.googleapis.com/css?family=Buda:300' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+	<!-- //web-fonts -->
+</head>
+<body>
+<!-- banner -->
+<div class="banner jarallax">
+	<div class="banner-info">
+		<div class="banner-top">
+			<div class="container">
+				<div class="navbar-header banner-logo">
+					<a href="index.html">
+						<h1>Surfrider</h1>
+					</a>
+				</div>
+				<div class="banner-top-right">
+					<div class="agileinfo-social-grids">
+						<ul>
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-rss"></i></a></li>
+							<li><a href="#"><i class="fa fa-vk"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<!-- banner-text -->
+		<div class="banner-text">
+			<!-- top-navigation -->
+			<div class="main">
+				<div class="container">
+					<nav id="menu" class="nav top-nav">
+						<ul>
+							<li >
+								<a href="/index">
+									<span class="icon">
+										<i aria-hidden="true" class="glyphicon glyphicon-home"></i>
+									</span>
+									<span>Home</span>
+								</a>
+							</li>
+							<li>
+								<a href="/stats" >
+									<span class="icon">
+										<i aria-hidden="true" class="icon-services glyphicon glyphicon-stats"></i>
+									</span>
+									<span>Statistiques</span>
+								</a>
+							</li>
+							<li >
+								<a href="/services" >
+									<span class="icon" >
+										<i aria-hidden="true" class="icon-portfolio glyphicon glyphicon-cog" ></i>
+									</span>
+									<span>Services</span>
+								</a>
+							</li>
+							<li style="background:rgba(113, 162, 218, 0.2);">
+                                <a style="color:#00BCD4;">
+                                        <span class="icon">
+                                            <i aria-hidden="true" class="glyphicon glyphicon-list-alt"></i>
+                                        </span>
+                                    <span>Formulaire</span>
+                                </a>
+                            </li>
+
+						</ul>
+					</nav>
+					<script src="js/modernizr.custom.js"></script>
+				</div>
+			</div>
+			<!-- //top-navigation -->
+
+		</div>
+		<!-- //banner-text -->
+		<div class="clearfix"> </div>
+
+	</div>
+</div>
+<!-- //banner -->
+<!-- welcome -->
+<div class="contact-form">
+	<center>
+		<ul>
+			<li>
+				<h3>Aidez nous a rendre le monde plus propre</h3>
+
+
+			</li>
+				<form action="/submit" method="post">
+					<li>
+						<input name ="city" id='Ville' type="text" placeholder="Ville" required="">
+
+							<button onclick="getLocation()">Find</button>
+							<p id="demo"></p>
+
+					</li>
+					<li>
+						<input name ="spot" type="text" placeholder="Nom du spot"  required="">
+					</li>
+					<li>
+					</li>
+					<li>
+						<label>Pollution : </label>
+						<input name="pollution" type="range" min=0"   style="width: 40%"  max="100" step="10" class="slider" id="pollution">
+
+					</li>
+					<li>
+					</li>
+					<li>
+						<label>date :</label>
+						<input name="date" type="date" placeholder="date"  required="">
+					</li>
+					<li>
+					</li>
+					<li>
+						<label>heure de debut de la session:</label>
+						<input name="start" type="time" placeholder="heurreD"  required="">
+					</li>
+					<li>
+					</li>
+					<li>
+						<label>heure de fin de la session :</label>
+						<input name="end" type="time" placeholder="heurref"  required="">
+					</li>
+					<li>
+					</li>
+					<li>
+						<label>Frequentation :</label>
+						<li>
+						</li>
+						<li>
+							<label>Baigneurs : </label>
+							<input name="baigneurs" type="range"   style="width: 40%" min=0" max="100" step="10" class="slider" id="baigneur">
+
+						</li>
+						<li>
+						</li>
+						<li>
+						<label>pratiquant de sport nautique : </label>
+							<input name="pratiquants" type="range" min=0"   style="width: 40%" max="100" step="10" class="slider" id="sport">
+
+						</li>
+						<li>
+						</li>
+						<li>
+						<label>Bateaux : </label>
+							<input name="bateaux" type="range" min=0"   style="width: 40%" max="100" step="10" class="slider" id="bateau">
+
+						</li>
+					</li>
+					<li>
+
+					</li>
+					<li>
+						<label>Produits utilisés : </label>
+					</li>
+					<li>
+						<fieldset>
+						<input type="checkbox" id="product1" name="products[]" value="CremeSolaire">
+						<label for="product1">Creme solaire </label><br>
+						<input type="checkbox" id="product2" name="products[]" value="Parfum">
+						<label for="product2">Parfum / Déodorant </label><br>
+						<input type="checkbox" id="product3" name="products[]" value="CremeHydratante">
+						<label for="product3">Crème hydratante </label><br>
+						<input type="checkbox" id="product4" name="products[]" value="Maquillage">
+						<label for="product4">Maquillage </label><br>
+						<input type="checkbox" id="product5" name="products[]" value="Essence">
+						<label for="product5">Essence</label><br>
+						<input type="checkbox" id="product6" name="products[]" value="Cigarette">
+						<label for="product6">Cigarette </label><br>
+						<input type="checkbox" id="product7" name="products[]" value="Engrais">
+						<label for="product7">Engrais / Pesticide </label><br>
+						<input type="checkbox" id="product8" name="products[]" value="Peinture">
+						<label for="product8">Peinture </label><br>
+					</li>
+					 </fieldset>
+						<button  onclick="animation(event)" type="submit" class="btn btn-outline-primary">Envoyer</button>
+							<canvas></canvas>
+				</form>
+		</ul>
+	</center>
+</div>
+
+<!-- //footer -->
+<!-- modal-about -->
+
+<!-- //modal-about -->
+<!-- jarallax -->
+<script src="js/SmoothScroll.min.js"></script>
+<script src="js/jarallax.js"></script>
+<script type="text/javascript">
+		/* init Jarallax */
+		$('.jarallax').jarallax({
+			speed: 0.5,
+			imgWidth: 1366,
+			imgHeight: 768
+		})
+	</script>
+<!-- //jarallax -->
+<!-- start-smooth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){
+					event.preventDefault();
+
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+	</script>
+<!-- //end-smooth-scrolling -->
+<!-- smooth-scrolling-of-move-up -->
+<script type="text/javascript">
+		$(document).ready(function() {
+
+			$().UItoTop({ easingType: 'easeOutQuart' });
+
+		});
+	</script>
+<!-- //smooth-scrolling-of-move-up -->
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+	var requestURL = 'https://api-adresse.data.gouv.fr/reverse/?lon='+position.coords.longitude+'&lat='+position.coords.latitude;
+	var request = new XMLHttpRequest();
+	request.open('GET', requestURL);
+	request.responseType = 'json';
+	request.send();
+	request.onload = function() {
+	  var adress = request.response;
+	  JSON.stringify(adress);
+	  document.getElementById('Ville').value=adress.features[0].properties.city;
+	}
+}
+
+
+
+// Definition du canvas
+var context;
+
+context = document.querySelector("canvas").getContext("2d");
+
+context.canvas.height = 320;
+context.canvas.width = 320;
+
+// Definition des variables
+var speed = 20;
+var count = 0;
+var nbrLinesExplosion = 15;
+var nbrRowsExplosion = 15;
+var seedExplosion = [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false,
+					false, false, false, false, false, false, false, false, false, false, false, false, false, false, false,
+					false, false, false, false, false, false, true, true, true, false, false, false, false, false, false,
+					false, false, false, false, false, false, false, false, false, false, false, false, false, false, false,
+					false, false, false, false, true, false, true, false, true, false, true, false, false, false, false,
+					false, false, false, false, false, false, false, false, false, false, false, false, false, false, false,
+					false, false, true, false, true, false, false, false, false, false, true, false, true, false, false,
+					false, false, true, false, false, false, false, false, false, false, false, false, true, false, false,
+					false, false, true, false, true, false, false, false, false, false, true, false, true, false, false,
+					false, false, false, false, false, false, false, false, false, false, false, false, false, false, false,
+					false, false, false, false, true, false, true, false, true, false, true, false, false, false, false,
+					false, false, false, false, false, false, false, false, false, false, false, false, false, false, false,
+					false, false, false, false, false, false, true, true, true, false, false, false, false, false, false,
+					false, false, false, false, false, false, false, false, false, false, false, false, false, false, false,
+					false, false, false, false, false, false, false, false, false, false, false, false, false, false, false];
+var nbrLinesGalaxy = 17;
+var nbrRowsGalaxy = 17;
+var seedGalaxy = [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false,
+					false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false,
+					false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false,
+					false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false,
+					false, false, false, false, true, true, false, true, true, true, true, true, true, false, false, false, false,
+					false, false, false, false, true, true, false, true, true, true, true, true, true, false, false, false, false,
+					false, false, false, false, true, true, false, false, false, false, false, false, false, false, false, false, false,
+					false, false, false, false, true, true, false, false, false, false, false, true, true, false, false, false, false,
+					false, false, false, false, true, true, false, false, false, false, false, true, true, false, false, false, false,
+					false, false, false, false, true, true, false, false, false, false, false, true, true, false, false, false, false,
+					false, false, false, false, false, false, false, false, false, false, false, true, true, false, false, false, false,
+					false, false, false, false, true, true, true, true, true, true, false, true, true, false, false, false, false,
+					false, false, false, false, true, true, true, true, true, true, false, true, true, false, false, false, false,
+					false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false,
+					false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false,
+					false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false,
+					false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false];
+var nbrLinesGlider = 7;
+var nbrRowsGlider = 10;
+var seedGlider = [false, false, false, false, false, false, false, false, false, false,
+				true, false, false, true, false, false, false, false, false, false,
+				false, false, false, false, true, false, false, false, false, false,
+				true, false, false, false, true, false, false, false, false, false,
+				false, true, true, true, true, false, false, false, false, false,
+				false, false, false, false, false, false, false, false, false, false,
+				false, false, false, false, false, false, false, false, false, false];
+var nbrLinesWatch = 14;
+var nbrRowsWatch = 14;
+var seedWatch = [false, false, false, false, false, false, false, false, false, false, false, false, false, false,
+			false, false, false, false, false, false, false, true, true, false, false, false, false, false,
+			false, false, false, false, false, false, false, true, true, false, false, false, false, false,
+			false, false, false, false, false, false, false, false, false, false, false, false, false, false,
+			false, false, false, false, false, true, true, true, true, false, false, false, false, false,
+			false, true, true, false, true, false, false, false, false, true, false, false, false, false,
+			false, true, true, false, true, false, true, true, false, true, false, false, false, false,
+			false, false, false, false, true, false, false, false, true, true, false, true, true, false,
+			false, false, false, false, true, false, false, false, false, true, false, true, true, false,
+			false, false, false, false, false, true, true, true, true, false, false, false, false, false,
+			false, false, false, false, false, false, false, false, false, false, false, false, false, false,
+			false, false, false, false, false, true, true, false, false, false, false, false, false, false,
+			false, false, false, false, false, true, true, false, false, false, false, false, false, false,
+			false, false, false, false, false, false, false, false, false, false, false, false, false, false];
+
+var seed = seedWatch;
+var nbrLines = nbrLinesWatch;
+var nbrRows = nbrRowsWatch;
+
+// Definition de la classe necessaires au projet
+class Cell{
+	constructor(i,j,s){
+		this.height = context.canvas.height / nbrLines;
+		this.width = context.canvas.width / nbrRows;
+		this.x = i * this.height;
+		this.y = j * this.width;
+
+		this.minToDie = 1;
+		this.maxToDie = 4;
+		this.toLive = 3;
+		this.currState = s;
+		this.nextState = s;
+		this.neighbours = new Array();
+	}
+
+	display(){
+        this.currState = this.nextState;
+
+		if(this.currState){
+        	context.fillStyle = "#41bbd9";
+		} else {
+			context.fillStyle = "#ffffff";
+		}
+		context.beginPath();
+        context.rect(this.x, this.y, this.width, this.height);
+        context.fill();
+	}
+
+	displayEmpty(){
+		context.fillStyle =  "#ffffff";
+		context.beginPath();
+        context.rect(this.x-1, this.y-1, this.width+2, this.height+2);
+        context.fill();
+	}
+
+	toggle(){
+		this.currState = !this.currState;
+		this.nextState = !this.nextState;
+	}
+
+	update(){
+		let sum = 0;
+		for(cell of this.neighbours){
+			if(cell.currState){
+				sum++;
+			}
+		}
+		if(this.currState){
+			if(sum <= this.minToDie || sum >= this.maxToDie){
+				this.nextState = false;
+			}
+		} else {
+			if(sum == this.toLive){
+				this.nextState = true;
+			}
+		}
+	}
+}
+
+// Creer la matrice de cellules
+var cells = new Array();
+for(let i=0; i<nbrLines; i++){
+	var temp = Array();
+	for(let j=0; j<nbrRows; j++){
+		temp.push(new Cell(i, j, seed[j * nbrRows + i]));
+	}
+	cells.push(temp);
+}
+
+// Attribuer les voisins
+for(let i=0; i<nbrLines; i++){
+	for(let j=0; j<nbrRows; j++){
+		let up, right, down, left;
+		if(i == 0){
+			up = nbrLines - 1;
+			down = i + 1;
+		} else if(i == nbrLines - 1){
+			up = i - 1;
+			down = 0;
+		} else {
+			up = i - 1;
+			down = i + 1;
+		}
+		if(j == 0){
+			right = j + 1;
+			left = nbrRows - 1;
+		} else if(j == nbrRows - 1){
+			right = 0;
+			left = j - 1;
+		} else {
+			right = j + 1;
+			left = j - 1;
+		}
+		cells[i][j].neighbours.push(cells[up][left]);
+		cells[i][j].neighbours.push(cells[up][j]);
+		cells[i][j].neighbours.push(cells[up][right]);
+		cells[i][j].neighbours.push(cells[i][left]);
+		cells[i][j].neighbours.push(cells[i][right]);
+		cells[i][j].neighbours.push(cells[down][left]);
+		cells[i][j].neighbours.push(cells[down][j]);
+		cells[i][j].neighbours.push(cells[down][right]);
+	}
+}
+
+// Boucle d'animation
+loop = function(){
+	if(count == 0){
+		for(line of cells){
+			for(cell of line){
+				cell.update();
+				cell.displayEmpty();
+			}
+		}
+		for(line of cells){
+			for(cell of line){
+				cell.display();
+			}
+		}
+		count++;
+	} else {
+		count++;
+		if(count == speed){
+			count = 0;
+		}
+	}
+	if(context.canvas.style.visibility == "visible"){
+		window.requestAnimationFrame(loop);
+	}
+}
+
+animation = function(event) {
+	console.log("jeu de la vie");
+	if(context.canvas.style.visibility == "visible"){
+		context.canvas.style.visibility = "hidden";
+	} else {
+		context.canvas.style.visibility = "visible";
+		window.requestAnimationFrame(loop);
+	}
+}
+</script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
