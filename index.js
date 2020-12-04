@@ -48,7 +48,9 @@ app.post('/submit', async function(req,res) {
   const bateaux = req.body.bateaux;
   const products = req.body.products;
   console.log(products);
-  if(city != null ) {
+
+  if (products == null){
+    products = ["Peinture"];
   }
 
   sendData(city,spot,pollution,date,start,end,baigneurs,pratiquants,bateaux,products);
